@@ -1,0 +1,162 @@
+body {
+    background-image: url(img/pexels-gradienta-7130555.jpg);
+    
+}
+
+header {
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    font-family: fantasy;
+    border-radius: 20px;
+}
+
+#bienvenue {
+    background-color: hsla(0, 0%, 96%, 0.699);
+    
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    font-family: monospace;
+}
+
+#btnStart {
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+    height: 50px;
+    width: 200px;
+}
+main {
+    position: absolute;
+    left: 50%;
+    top:40%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    font-family: monospace;
+    border-radius: 20px;
+}
+
+div.social-network {
+    position: absolute;
+    top: 3%;
+    left: 85%;
+}
+#twitt:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+#linkedin:hover {
+    color: red;
+    border-radius: 5px;
+    
+}
+h1 {
+    padding-left: 30%;
+}
+
+h2 {
+    margin: 5px;
+}
+
+h4 {
+    padding-left: 30%;
+}
+
+div.container-reponses {
+    padding-left: 30%;
+}
+
+button {
+    
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.goodAnwser {
+    background-color: green;
+}
+
+.badAnwser {
+    background-color: red;
+}
+
+.nextQuestion {
+    visibility: hidden;
+    width: 200px;
+    height: 50px;
+}
+
+.visibe {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.photo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gifMerNoir {
+    
+    visibility: hidden;
+    border-radius: 20px;
+}
+
+#gifBravo {
+    position: absolute;
+    right: 10px;
+    visibility: hidden;border-radius: 20px;
+}
+
+#questionTitle {
+    padding-right: 100px;
+}
+
+.question2btn {
+    padding-left: 15%;
+}
+
+button#btn3.question2 {
+    position: absolute;
+    right: 200px;
+    visibility: hidden;
+}
+
+button#btn4.question2 {
+    position: absolute;
+    right: 80px;
+    visibility: hidden;
+}
+
+#conclusion {
+        font-family: monospace;
+        text-align: center;
+        font-size:x-large;
+}
+
+#retour-btn {
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    position: absolute;
+    height: 40px;
+    width: 150px;
+}
+
+#gifBad {
+    position: absolute;
+    border-radius: 20px;
+    right: 1px;
+    visibility: hidden;
+}
